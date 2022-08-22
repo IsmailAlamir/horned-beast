@@ -10,7 +10,6 @@ render (){
   return (<div>
 
 <Header/>
-
 <Main/>
 <Footer/>
 
