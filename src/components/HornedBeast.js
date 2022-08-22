@@ -5,15 +5,21 @@ class HornedBeast extends React.Component{
         return(
 <div>
     <h2>
-        title 
+    {this.props.title}
     </h2>
-    <img src="https://thumbs.dreamstime.com/b/cute-monster-cartoon-style-vector-illustration-mythical-beast-which-holds-hand-mushroom-cute-monster-cartoon-174470412.jpg" alt="HornedBeast" title="HornedBeast"></img>
-<p>
-description 
+  
+    <img src={this.props.img} alt={this.props.title} title={this.props.title}></img>
+
+    <p>
+{this.props.description} 
 </p>
-    </div>
+
+
+</div>
+
 
    ) }
 }
 
 export default HornedBeast ;
+
